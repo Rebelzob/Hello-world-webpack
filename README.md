@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="https://placehold.co/1500x450" />
-  <h3><b>Your Name</b></h3>
+  <img src="./app/assets/images/banner.png" />
+  <h3><b>Rails - React</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Ruby on Rails Template <a name="about-project"></a>
+# 📖 Hello Rails - React <a name="about-project"></a>
 
-**Ruby on Rails Template** description...
+**Hello Rails - React** is a project that uses **React** to manage the assets of a **Rails** application.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,6 +36,7 @@
 <details>
   <summary>Client</summary>
   <ul>
+    <li><a href="https://react.dev/">React</a></li>
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
     <li><a href="https://www.tailwindcss.com/">TailwindCSS</a></li>
   </ul>
@@ -59,9 +60,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Key Feature**
-- **Key Feature**
-- **Key Feature**
+- **Display random quotes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,10 +111,10 @@ Use this command to fix **Stylelint** Errors:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Karim Barragan**
 
-- GitHub: [@rysthcraft](https://github.com/Rysth)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-palacios-rysthcraft)
+- GitHub: [@rysthcraft](https://github.com/Rebelzob)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/karim-barragan/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,8 +122,7 @@ Use this command to fix **Stylelint** Errors:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Future Feature**
-- [ ] **Future Feature**
+- [ ] **Create, Delete and Update messages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
