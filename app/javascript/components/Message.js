@@ -4,7 +4,7 @@ import { fetchMessages } from "../redux/slices/messageSlice";
 
 const Message = () => {
   const dispatch = useDispatch();
-  const { message, loading} = useSelector((store) => store.message);
+  const { message, loading } = useSelector((store) => store.message);
 
   useEffect(() => {
     dispatch(fetchMessages());
@@ -15,9 +15,9 @@ const Message = () => {
   return (
     <div>
       {!loading && message?.message && (
-        <div class="container text-center">
-          <h1 class="text-3xl text-neutral-600 py-2">Hamlet Quotes</h1>
-          <p class="p-4 text-lg shadow-lg rounded-sm">{message?.message}</p>
+        <div className="container mx-auto text-center">
+          <h1 className="text-3xl font-bold text-neutral-600 py-2">Hamlet Quotes</h1>
+          <p className="p-4 text-lg shadow-lg rounded-sm">{message?.message}</p>
         </div>
       )}
     </div>
